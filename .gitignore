@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 .env.local
+.env
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -24,4 +25,3 @@ dist-ssr
 *.sw?
 
 
-GEMINI_API_KEY=AIzaSyAHe_9f0z7GhNgVbgH_ATFoJ6O2_HPcRPA

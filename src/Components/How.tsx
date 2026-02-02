@@ -24,7 +24,7 @@ const How = () => {
 
     return(
 
-        <section className="flex flex-col justify-center items-center w-full bg-[#0B1220] px-10 py-20">
+        <section className="flex flex-col justify-center items-center w-full bg-[#0B1220] px-10 py-20" id="how">
            
            <h1 className="text-[2em] font-bold text-gray-200 font-sans text-center">How GeminiImport Works</h1>
  
@@ -32,7 +32,7 @@ const How = () => {
               {
                 data.map((d)=>{
                     return(
-                        <div className="bg-gray-300 p-5 w-[280px] h-[380px] flex flex-col gap-5 rounded-2xl cursor-pointer transition-all duration-300 hover:scale-105">
+                        <div key={d.title} className="bg-gray-300 p-5 w-[280px] h-[380px] flex flex-col gap-5 rounded-2xl cursor-pointer transition-all duration-300 hover:scale-105">
                         <img src={d.icon} alt="" className="w-[70px] h-[70px]"/>
                         <p className="text-[1.3em] font-bold font-sans">{d.title}</p>
                         <p className="text-[15px] text-gray-800 font-[500] leading-5">{d.info}</p>

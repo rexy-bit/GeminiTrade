@@ -15,13 +15,13 @@ const Home = () => {
               </p>
 
               <div className="flex flex-row items-center gap-5 ">
-                <button className="w-[120px] text-[14px] bg-[#2563EB] h-[40px] font-sans font-bold text-white rounded-[5px] cursor-pointer transition-transform duration-200 hover:scale-105 active:scale-100">
+                <a className="w-[120px] text-[14px] bg-[#2563EB] h-[40px] font-sans font-bold text-white rounded-[5px] cursor-pointer flex justify-center items-center transition-transform duration-200 hover:scale-105 active:scale-100" href="#test">
                     Start Analysis
-                </button>
+                </a>
                 
-                <button className="w-[120px] text-[14px] font-bold bg-white text-[#1E2A47] h-[40px] font-bold font-sans rounded-[5px] cursor-pointer transition-opacity duration-200 hover:opacity-80 active:opacity-60">
+                <a className="flex justify-center items-center w-[120px] text-[14px] font-bold bg-white text-[#1E2A47] h-[40px] font-bold font-sans rounded-[5px] cursor-pointer transition-opacity duration-200 hover:opacity-80 active:opacity-60" href="#how">
                     How it works
-                </button>
+                </a>
               </div>
          </section>
     );
