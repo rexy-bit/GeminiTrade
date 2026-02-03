@@ -25,7 +25,7 @@ const TestDetailsPop = ({test, setShowPop} :  {test: userInput, setShowPop : (b 
     return(
               <div onClick={()=>setShowPop(false)} className="fixed inset-0 bg-black/40  flex justify-center z-50">
     
-               <div className="flex flex-col shadow-2xl gap-2  w-[700px] h-[600px] bg-[#0F172A] border-5 border-[#1E2A47]  rounded-[20px] p-5 max-[1025px]:w-[500px] max-[550px]:w-[300px] mt-40 px-6 overflow-y-auto space-y-1 relative" onClick={(e) => e.stopPropagation()}>
+               <div className="flex flex-col shadow-2xl gap-2  w-[700px] h-[450px] bg-[#0F172A] border-5 border-[#1E2A47]  rounded-[20px] p-5 max-[1025px]:w-[500px] max-[550px]:w-[300px] mt-5 px-6 overflow-y-auto space-y-1 relative" onClick={(e) => e.stopPropagation()}>
 
                      <h1 className="text-center text-gray-100 font-bold text-[1.5em]">{test.productName}</h1>
 

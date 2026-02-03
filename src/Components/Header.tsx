@@ -15,8 +15,8 @@ const Header = () => {
 
 
     return(
-        <header className="flex flex-row justify-between  fixed top-0 w-full items-center bg-[#1E2A47] h-[70px] px-6 max-[600px]:px-3 shadow-2xl">
-              <h1 className="text-white font-bold text-[2em] max-[600px]:text-[1.5em] ">GeminiTrade</h1>
+        <header className="flex flex-row justify-between  fixed top-0 w-full items-center bg-[#1E2A47] h-[70px] px-6 max-[600px]:px-3 shadow-2xl z-50">
+              <h1 className="text-white font-bold text-[2em] max-[600px]:text-[1.5em] ">Gemini-Trade</h1>
               <nav className="flex flex-row justify-center items-center gap-4 max-[600px]:gap-3 max-[600px]:hidden">
                 <a href="" className="text-white font-[600] text-[15px] max-[600px]:text-[14px] transition-opacity duration-200 hover:opacity-80 active:opacity-60 cursor-pointer">Home</a>
                 <a href="" className="text-white font-[600] text-[15px] max-[600px]:text-[14px] transition-opacity duration-200 hover:opacity-80 active:opacity-60 cursor-pointer">About</a>
